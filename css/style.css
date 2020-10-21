@@ -1,0 +1,76 @@
+@font-face { 
+    font-family: 'CocoGothicLight';
+    src: url("../assets/fonts/CocoGothic-Light_trial.ttf");
+  }
+
+@font-face { 
+    font-family: 'CocoGothicRegular';
+    src: url("../assets/fonts/CocoGothic-Regular_trial.ttf");
+  }
+
+*  { 
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+
+
+body { 
+    background-color: black;
+    margin:0;
+    
+ 
+}
+
+html { 
+    box-sizing: border-box;
+}
+
+h1 { 
+    color: #fff;
+    font-size: 50px;
+    font-family: "CocoGothicLight";
+    font-weight: 100;
+}
+
+h2{ 
+    color: #fff;
+    font-size: 18px;
+    font-family: "CocoGothicLight";
+    font-weight: 100;
+}
+
+h3 { 
+    color: #fff;
+    font-size: 25px;
+    font-family: "CocoGothicRegular";
+    font-weight: 300;
+}
+
+h4{ 
+    color: #fff;
+    font-size: 15px;
+    font-family: "CocoGothicRegular";
+    font-weight: 300;
+}
+
+h5 { 
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+
+}
+
+
+p { 
+    color: #fff;
+    font-size: 15px;
+    font-family: "CocoGothicLight";
+    font-weight: 100;
+}
+
+
+
