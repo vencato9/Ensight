@@ -1,0 +1,29 @@
+.categorias { 
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right:10%;
+}
+
+.categoria-box { 
+    width: 350px;
+    height: 400px;
+    background-color: #101010;
+    margin-top:10%;
+    padding: 30px;
+    
+}
+
+.categoria-imgbox { 
+    position: relative;
+    height: 160px;
+    background-color: #fff;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+.categorias p { 
+    margin-top: 10px;
+}
+
