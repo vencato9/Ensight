@@ -50,7 +50,7 @@
 .content { 
     height: 100vh;
     width: 100%;
-    box-shadow: inset -20px -20px 40px rgba(28,26,28,0.5),
+    box-shadow: inset -20px -20px 40px rgba(3,3,3,0.5),
     inset 20px 20px 40px rgba(3,3,3,0.5);
   
 }
@@ -79,6 +79,7 @@
     display:flex;
     flex-direction: row;
     padding-bottom: 25px;
+    align-items: center;
 }
 
 .padding-left { 
@@ -113,4 +114,70 @@
     flex-direction: row;
     justify-items: normal;
 }
+
+
+
+
+
+  
+  .perspective-text {
+    color: white;
+    font-size: 58px;
+    font-weight: 900;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .perspective-line {
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  p {
+    font-size: 30px;
+    margin: 0;
+    height: 50px;
+    line-height: 50px;
+    transition: all 0.5s ease-in-out;
+    padding-left: 20px;
+    padding-right:20px;
+  }
+  
+  .perspective-line:nth-child(odd) {
+    transform: skew(60deg, -30deg) scaleY(0.667);
+  }
+  
+  .perspective-line:nth-child(even) {
+    transform: skew(0deg, -30deg) scaleY(1.337);
+  }
+  
+  .perspective-text:hover p {
+    transform: translate(0, -50px);
+  }
+  
+  .perspective-line:nth-child(1) {
+    left: 29px;
+  }
+  
+  .perspective-line:nth-child(2) {
+    left: 58px;
+    background: #EC31DE;
+  }
+  
+  .perspective-line:nth-child(3) {
+    left: 87px;
+    background: #D7199A;
+  }
+  
+  .perspective-line:nth-child(4) {
+    left: 116px;
+    background: #5D3977;
+  }
+  
+  .perspective-line:nth-child(5) {
+    left: 145px;
+  }
+  
 
