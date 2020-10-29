@@ -7,9 +7,10 @@
 
 .Section1 { 
   
-    background-image: url("../assets/img/Background2.png") ;    
+    background-image: url("../../assets/img/Background1.png") ;    
     width: 100%;
     height: 100vh;
+    background-size: cover;
 }
 
 .Home_Main { 
@@ -28,7 +29,7 @@
     height: 100vh;
 }
 
-.Home_Categorias{ 
+.Home_Categorias { 
     display: flex;
     justify-content: center;
     margin-top: 10%;

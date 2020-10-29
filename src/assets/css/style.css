@@ -1,11 +1,11 @@
 @font-face { 
     font-family: 'CocoGothicLight';
-    src: url("../assets/fonts/CocoGothic-Light_trial.ttf");
+    src: url("../fonts/CocoGothic-Light_trial.ttf");
   }
 
 @font-face { 
     font-family: 'CocoGothicRegular';
-    src: url("../assets/fonts/CocoGothic-Regular_trial.ttf");
+    src: url("../fonts/CocoGothic-Regular_trial.ttf");
   }
 
 *  { 
@@ -18,7 +18,7 @@
 
 
 body { 
-    background-color: black;
+    background-color: #100F10;
     margin:0;
     
  
@@ -62,6 +62,13 @@ h5 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 
+}
+
+h6 {
+    color: #fff;
+    font-size: 35px;
+    font-family: "CocoGothicRegular";
+    font-weight: 300;
 }
 
 
